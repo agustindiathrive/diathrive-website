@@ -7,6 +7,10 @@ export default {
     "./src/ui/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      'dark-blue': '#242678',
+      'light-blue': '#00a5e3',
+    },
     extend: {
       colors: {
         background: "var(--background)",

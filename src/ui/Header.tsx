@@ -1,37 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import ButtonLink from "./ButtonLink";
+import HeaderTextLink from "./HeaderTextLink";
+
 export default function Header() {
   // Render
   return (
-    <header className="flex flex-row justify-around">
+    <header className="flex justify-around py-6">
       <Link href="/">
         <Image
           alt="Diathrive logo"
           height={80}
-          objectFit="contain"
           priority
           src="/diathrive-logo.webp"
           width={220}
         />
       </Link>
-      <nav>
-        <ul className="flex flex-row gap-8">
-          <li>
-            <Link href="/approach">Our Approach</Link>
-          </li>
-          <li>
-            <Link href="/resources">Resources</Link>
-          </li>
-          <li>
-            <Link href="/about">About</Link>
-          </li>
-          <li>
-            <Link href="/request-a-demo">Request A Demo</Link>
-          </li>
-          <li>
-            <Link href="/download">Download</Link>
-          </li>
+      <nav className="flex items-center">
+        <ul className="flex">
+          <HeaderTextLink href="/approach" text="Our Approach" />
+          <HeaderTextLink href="/resources" text="Resources" />
+          <HeaderTextLink href="/about" text="About" />
+          <li className="mx-3"><ButtonLink color="bg-dark-blue" href="/request-a-demo" text="Request A Demo" /></li>
+          <li className="mx-3"><ButtonLink color="bg-light-blue" href="/download" text="Download" /></li>
         </ul>
       </nav>
     </header>
