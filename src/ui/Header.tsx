@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import ButtonLink from "./ButtonLink";
-import HeaderTextLink from "./HeaderTextLink";
+import ButtonLink from "@/ui/ButtonLink";
+import HeaderTextLink from "@/ui/HeaderTextLink";
 
 export default function Header() {
   // Render

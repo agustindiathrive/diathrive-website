@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-import ButtonLink from "./ButtonLink";
+import ButtonLink from "@/ui/ButtonLink";
 
 type FirstSectionProps = {
   backgroundImageURL: string;
-  showButton: boolean;
+  showButton?: boolean;
   text?: string;
   title: string;
   underlinedTitle: string;

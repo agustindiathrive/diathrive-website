@@ -1,6 +1,6 @@
 import FirstSection from "@/ui/FirstSection";
 
-export default function Home() {
+export default function HomePage() {
   // Render
   return (
     <main>
