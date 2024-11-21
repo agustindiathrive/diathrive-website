@@ -1,8 +1,10 @@
+import BottomBanner from "@/ui/BottomBanner";
+
 export default function ApproachPage() {
   // Render
   return (
     <main>
-      This is Approach Page
+      <BottomBanner />
     </main>
   );
 }

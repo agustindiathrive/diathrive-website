@@ -1,4 +1,5 @@
-import FirstSection from "@/ui/FirstSection";
+import BottomBanner from "@/ui/BottomBanner";
+import FirstSection from "@/ui/Hero";
 
 export default function HomePage() {
   // Render
@@ -11,6 +12,7 @@ export default function HomePage() {
         title="Lower costs."
         underlinedTitle="Improved health and productivity."
       />
+      <BottomBanner />
     </main>
   );
 }

@@ -1,4 +1,5 @@
-import FirstSection from "@/ui/FirstSection";
+import BottomBanner from "@/ui/BottomBanner";
+import FirstSection from "@/ui/Hero";
 
 export default function AboutPage() {
   // Render
@@ -10,6 +11,7 @@ export default function AboutPage() {
         title="A better solution"
         underlinedTitle="for everyone."
       />
+      <BottomBanner />
     </main>
   );
 }

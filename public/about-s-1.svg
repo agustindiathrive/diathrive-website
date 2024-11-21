@@ -1,0 +1,19 @@
+<svg id="Group_17" data-name="Group 17" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156" height="156" viewBox="0 0 156 156">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_14" data-name="Clip 14" d="M0,156H156V0H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Stroke_1" data-name="Stroke 1" d="M15,0A53.679,53.679,0,0,1,0,2" transform="translate(47 115)" fill="none" stroke="#00a5e3" stroke-miterlimit="10" stroke-width="3"/>
+  <path id="Stroke_3" data-name="Stroke 3" d="M41.29,111C18.457,111,.012,100.037,0,78.363.02,62.683,17.5,42.083,35.64,24.956c0,0-11.88-14.835-13.3-21.283C32.67-4.714,44.55,4.187,57.944,2.058c1.456,5.1-10.424,22.9-10.424,22.9A166.482,166.482,0,0,1,76,60.635" transform="translate(6 6)" fill="none" stroke="#00a5e3" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+  <path id="Stroke_5" data-name="Stroke 5" d="M0,.05H24" transform="translate(36 30.95)" fill="none" stroke="#00a5e3" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+  <path id="Stroke_7" data-name="Stroke 7" d="M0,24a6,6,0,0,0,6,6h6a6,6,0,0,0,6-6V22.324a5.97,5.97,0,0,0-4.069-5.692L4.119,13.367A6.015,6.015,0,0,1,0,7.675V6A6,6,0,0,1,6,0h6a6,6,0,0,1,6,6" transform="translate(39 61)" fill="none" stroke="#00a5e3" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+  <path id="Stroke_9" data-name="Stroke 9" d="M.05,9V0" transform="translate(47.95 52)" fill="none" stroke="#00a5e3" stroke-miterlimit="10" stroke-width="3"/>
+  <path id="Stroke_11" data-name="Stroke 11" d="M.05,0V9" transform="translate(47.95 91)" fill="none" stroke="#00a5e3" stroke-miterlimit="10" stroke-width="3"/>
+  <path id="Clip_14-2" data-name="Clip 14" d="M0,156H156V0H0Z" fill="none"/>
+  <g id="Group_17-2" data-name="Group 17" clip-path="url(#clip-path)">
+    <path id="Stroke_13" data-name="Stroke 13" d="M0,42H24V0H0Z" transform="translate(71 76)" fill="none" stroke="#00a5e3" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="Stroke_15" data-name="Stroke 15" d="M0,81H24V0H0Z" transform="translate(95 37)" fill="none" stroke="#00a5e3" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="Stroke_16" data-name="Stroke 16" d="M0,57H24V0H0Z" transform="translate(119 61)" fill="none" stroke="#00a5e3" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>

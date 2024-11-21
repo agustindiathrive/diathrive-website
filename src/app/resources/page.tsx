@@ -1,8 +1,10 @@
+import BottomBanner from "@/ui/BottomBanner";
+
 export default function ResourcesPage() {
   // Render
   return (
     <main>
-      This is Resources page
+      <BottomBanner />
     </main>
   );
 }
