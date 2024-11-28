@@ -1,4 +1,4 @@
-import BottomBanner from "@/ui/BottomBanner";
+import BottomBanner from "@/components/BottomBanner";
 
 export default function ApproachPage() {
   // Render

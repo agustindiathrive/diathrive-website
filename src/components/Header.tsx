@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import ButtonLink from "@/ui/ButtonLink";
-import HeaderTextLink from "@/ui/HeaderTextLink";
+import ButtonLink from "@/components/ButtonLink";
+import HeaderTextLink from "@/components/HeaderTextLink";
 
 export default function Header() {
   // Render
@@ -13,7 +13,7 @@ export default function Header() {
           alt="Diathrive logo"
           height={80}
           priority
-          src="/diathrive-logo.webp"
+          src="/images/DiathriveLogo.webp"
           width={220}
         />
       </Link>

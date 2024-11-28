@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import ButtonLink from "@/ui/ButtonLink";
+import ButtonLink from "@/components/ButtonLink";
 
 type HeroProps = {
   backgroundImageURL: string;

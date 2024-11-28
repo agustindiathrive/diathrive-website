@@ -3,13 +3,12 @@ import type { Config } from "tailwindcss";
 export default {
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/ui/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     colors: {
       'dark-blue': '#242678',
-      'darker-blue': '#171b60',
       'light-blue': '#00a5e3',
     },
     extend: {
@@ -17,6 +16,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+    },
+    fontFamily: {
+      'oswald': ['Oswald']
     },
   },
   plugins: [],
