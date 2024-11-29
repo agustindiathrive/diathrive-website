@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <main>
       <JoinOurNewsletterModal />
-      {/* <FirstSection
+      <FirstSection
         backgroundImageURL="/FirstSectionBG1.webp"
         showButton
         text="Diathrive Health is leading the charge to make positive progress and improve health and organizational outcomes. Our diabetes management platform actively engages people in order to foster a long-term behavior change that sticks."
@@ -17,7 +17,7 @@ export default function HomePage() {
         underlinedTitle="Improved health and productivity."
       />
       <ResourcesSection />
-      <BottomBanner /> */}
+      <BottomBanner />
     </main>
   );
 }
