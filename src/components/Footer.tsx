@@ -1,8 +1,8 @@
-import { faInstagram, faPinterestP, faSquareFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faPinterestP, faSquareFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import ContactUs from "@/components/layout/contact-us/contact-us";
-import TextLink from "@/components/TextLink";
+import ContactUs from '@/components/layout/contact-us/contact-us';
+import TextLink from '@/components/TextLink';
 
 export default function Footer() {
   // Render

@@ -1,6 +1,6 @@
-import Image from "next/image";
+import Image from 'next/image';
 
-import TextNavigationLink from "@/components/TextNavigationLink";
+import TextNavigationLink from '@/components/TextNavigationLink';
 
 export default function FeaturedArticle(): JSX.Element {
   // Render

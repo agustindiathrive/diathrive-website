@@ -1,4 +1,4 @@
-import BottomBanner from "@/components/BottomBanner";
+import BottomBanner from '@/components/BottomBanner';
 
 export default function ResourcesPage() {
   // Render

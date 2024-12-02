@@ -1,8 +1,8 @@
 'use server';
 
-import { ContactInfoSchema } from "@/schemas/contact-info-schema";
+import { ContactInfoSchema } from '@/schemas/contact-info-schema';
 
-export async function sendContactInfo(formData: FormData) {
+export async function sendContactInfo(prevState: unknown, formData: FormData) {
   await new Promise(resolve => setTimeout(resolve, 2000));
   const data = Object.fromEntries(formData);
 
@@ -11,8 +11,12 @@ export async function sendContactInfo(formData: FormData) {
   if (!validatedFields.success) {
     return {
       errors: validatedFields.error.flatten().fieldErrors,
+      message: '',
     }
   }
 
-  return { message: data }
+  return {
+    errors: null,
+    message: 'Success',
+  }
 }

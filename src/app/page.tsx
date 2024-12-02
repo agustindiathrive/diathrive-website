@@ -1,14 +1,17 @@
-import BottomBanner from "@/components/BottomBanner";
-import FirstSection from "@/components/Hero";
-import ResourcesSection from "@/components/ResourcesSection";
+// import BottomBanner from '@/components/BottomBanner';
+// import FirstSection from '@/components/Hero';
+// import ResourcesSection from '@/components/ResourcesSection';
 
-import JoinOurNewsletterModal from "@/components/modals/JoinOurNewsletterModal";
+// import JoinOurNewsletterModal from '@/components/modals/JoinOurNewsletterModal';
+
+// import JoinOurNewsletterModal from '@/components/modals/join-our-newsletter-modal';
 
 export default function HomePage() {
   // Render
   return (
     <main>
-      <JoinOurNewsletterModal />
+      {/* <JoinOurNewsletterModal /> */}
+      {/* <JoinOurNewsletterModal />
       <FirstSection
         backgroundImageURL="/FirstSectionBG1.webp"
         showButton
@@ -17,7 +20,7 @@ export default function HomePage() {
         underlinedTitle="Improved health and productivity."
       />
       <ResourcesSection />
-      <BottomBanner />
+      <BottomBanner /> */}
     </main>
   );
 }

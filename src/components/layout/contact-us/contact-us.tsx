@@ -1,7 +1,7 @@
 'use client';
 
-import { faCommentDots, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCommentDots, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react';
 
 import ContactUsForm from '@/components/layout/contact-us/contact-us-form';

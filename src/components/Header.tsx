@@ -1,8 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
-import ButtonLink from "@/components/ButtonLink";
-import HeaderTextLink from "@/components/HeaderTextLink";
+import ButtonLink from '@/components/ButtonLink';
+import HeaderTextLink from '@/components/HeaderTextLink';
 
 export default function Header() {
   // Render
@@ -22,6 +22,7 @@ export default function Header() {
           <HeaderTextLink href="/approach" text="Our Approach" />
           <HeaderTextLink href="/resources" text="Resources" />
           <HeaderTextLink href="/about" text="About" />
+          <Link href="/newsletter">Open Modal</Link>
           <li className="mx-3"><ButtonLink color="bg-dark-blue" href="/request-a-demo" text="Request A Demo" /></li>
           <li className="mx-3"><ButtonLink color="bg-light-blue" href="/download" text="Download" /></li>
         </ul>

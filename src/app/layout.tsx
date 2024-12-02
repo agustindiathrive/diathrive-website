@@ -1,22 +1,30 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
+import { Oswald } from 'next/font/google';
 
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 
-import "./global.css";
+import './global.css';
+
+const oswald = Oswald({
+  display: 'swap',
+  subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
-  title: "Diathrive Health",
-  description: "Lower costs. Improved health and productivity.",
+  description: 'Lower costs. Improved health and productivity.',
+  title: 'Diathrive Health',
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({ children, modal }: Readonly<{ children: React.ReactNode, modal: React.ReactNode }>) {
   // Render
   return (
-    <html lang="en">
+    <html className={oswald.className} lang="en">
       <body>
         <Header />
         {children}
+        {modal}
+        <div id="modal-root" />
         <Footer />
       </body>
     </html>

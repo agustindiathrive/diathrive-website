@@ -1,6 +1,6 @@
-import Image from "next/image";
+import Image from 'next/image';
 
-import ButtonLink from "@/components/ButtonLink";
+import ButtonLink from '@/components/ButtonLink';
 
 export default function BottomBanner(): JSX.Element {
   // Render
