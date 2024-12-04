@@ -22,7 +22,6 @@ export default function Header() {
           <HeaderTextLink href="/approach" text="Our Approach" />
           <HeaderTextLink href="/resources" text="Resources" />
           <HeaderTextLink href="/about" text="About" />
-          <Link href="/newsletter">Open Modal</Link>
           <li className="mx-3"><ButtonLink color="bg-dark-blue" href="/request-a-demo" text="Request A Demo" /></li>
           <li className="mx-3"><ButtonLink color="bg-light-blue" href="/download" text="Download" /></li>
         </ul>

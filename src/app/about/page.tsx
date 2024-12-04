@@ -1,5 +1,5 @@
 import BottomBanner from '@/components/BottomBanner';
-import FirstSection from '@/components/Hero';
+import FirstSection from '@/components/ui/hero';
 
 export default function AboutPage() {
   // Render
