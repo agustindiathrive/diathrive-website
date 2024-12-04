@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <>
       <ContactUs />
-      <footer className="bg-dark-blue flex font-medium justify-around py-10 text-base" style={{ color: 'white' }}>
+      <footer className="bg-[#171b60] flex font-medium justify-around py-10 text-base" style={{ color: 'white' }}>
         <span>Copyright 2022 Diathrive</span>
         <nav>
           <ul className="flex flex-row gap-8">
