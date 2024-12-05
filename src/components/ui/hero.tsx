@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import ButtonLink from '@/components/ButtonLink';
+import LinkButton from '@/components/ui/link-button';
 
 type HeroProps = {
   backgroundImageURL: string;
@@ -14,16 +14,15 @@ export default function Hero({ backgroundImageURL, showButton = false, text, tit
   // Render
   return (
     <section className="flex flex-col h-[493px] items-center justify-center relative w-full">
-      <div className="flex flex-col max-w-[1320px]">
+      <div className="flex flex-col max-w-[1320px] mx-auto">
         <h2 className="font-normal leading-[60px] text-[51px]" style={{ color: 'white' }}>
           {title}
-        </h2>
-        <h2 className="font-normal leading-[60px] text-[51px]" style={{ color: 'white' }}>
+          <br />
           <span className="border-b-light-blue border-b-[5px]">{underlinedTitle}</span>
         </h2>
+        {text && <p className="font-medium leading-[25px] pt-[30px] text-[16px] w-1/2" style={{ color: 'white' }}>{text}</p>}
+        {showButton && <LinkButton bgColor="light-blue" href="/request-a-demo" text="Request A Demo" />}
       </div>
-      {text && <p className="pb-12 pt-6 w-1/2" style={{ color: 'white' }}>{text}</p>}
-      {showButton && <ButtonLink color="bg-light-blue" href="/request-a-demo" text="Request A Demo" />}
       <Image
         alt={`${title} ${underlinedTitle}`}
         className="object-cover -z-10"

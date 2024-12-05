@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Oswald } from 'next/font/google';
 
 import Footer from '@/components/layout/footer';
-import Header from '@/components/Header';
+import Header from '@/components/layout/header';
 
 import './global.css';
 
