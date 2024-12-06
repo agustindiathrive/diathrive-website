@@ -13,8 +13,8 @@ type HeroProps = {
 export default function Hero({ backgroundImageURL, showButton = false, text, title, underlinedTitle }: HeroProps): JSX.Element {
   // Render
   return (
-    <section className="flex flex-col h-[493px] items-center justify-center relative w-full">
-      <div className="flex flex-col max-w-[1320px] mx-auto">
+    <section className="flex flex-col justify-center h-[493px] relative w-full">
+      <div className="flex flex-col pl-[10%]">
         <h2 className="font-normal leading-[60px] text-[51px]" style={{ color: 'white' }}>
           {title}
           <br />
