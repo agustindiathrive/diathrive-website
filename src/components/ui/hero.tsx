@@ -21,7 +21,7 @@ export default function Hero({ backgroundImageURL, showButton = false, text, tit
           <span className="border-b-light-blue border-b-[5px]">{underlinedTitle}</span>
         </h2>
         {text && <p className="font-medium leading-[25px] pt-[30px] text-[16px] w-1/2" style={{ color: 'white' }}>{text}</p>}
-        {showButton && <LinkButton bgColor="light-blue" href="/request-a-demo" text="Request A Demo" />}
+        {showButton && <LinkButton bgColor="#00a5e3" href="/request-a-demo" text="Request A Demo" />}
       </div>
       <Image
         alt={`${title} ${underlinedTitle}`}

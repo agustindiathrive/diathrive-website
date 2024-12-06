@@ -7,7 +7,7 @@ type ButtonLinkProps = {
   textColor?: string;
 };
 
-export default function LinkButton({ bgColor = 'light-blue', href, text, textColor = 'white' }: ButtonLinkProps) {
+export default function LinkButton({ bgColor = '#00a5e3', href, text, textColor = 'white' }: ButtonLinkProps) {
   // Render
   return (
     <Link

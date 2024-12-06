@@ -23,10 +23,10 @@ export default function Header() {
           <HeaderTextLink href="/resources" text="Resources" />
           <HeaderTextLink href="/about" text="About" />
           <li className="mx-3">
-            <LinkButton bgColor="dark-blue" href="/request-a-demo" text="Request A Demo" />
+            <LinkButton bgColor="#242678" href="/request-a-demo" text="Request A Demo" />
           </li>
           <li className="mx-3">
-            <LinkButton bgColor="light-blue" href="/download" text="Download" />
+            <LinkButton bgColor="#00a5e3" href="/download" text="Download" />
           </li>
         </ul>
       </nav>
