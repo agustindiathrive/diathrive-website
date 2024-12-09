@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import BottomBanner from '@/components/BottomBanner';
+import BottomBanner from '@/components/ui/bottom-banner';
 import Hero from '@/components/ui/hero';
 import LinkButton from '@/components/ui/link-button';
 
@@ -210,6 +210,7 @@ export default function ApproachPage() {
                   <LinkButton
                     bgColor="#242678"
                     href="/article/insurtech-leadership-podcast-diathrive-health-ceo-michael-hennessy"
+                    label="The Insurtech Leadership Podcast: Diathrive Health CEO Michael Hennessy"
                     text="Read More"
                     textColor="white"
                   />
@@ -230,6 +231,7 @@ export default function ApproachPage() {
                   <LinkButton
                     bgColor="#242678"
                     href="/article/what-people-diabetes-need-employer"
+                    label="What People with Diabetes Need From an Employer"
                     text="Read More"
                     textColor="white"
                   />

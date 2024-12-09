@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import BottomBanner from '@/components/BottomBanner';
+import BottomBanner from '@/components/ui/bottom-banner';
 import Hero from '@/components/ui/hero';
 import LinkButton from '@/components/ui/link-button';
 
@@ -18,7 +18,7 @@ export default function AboutPage() {
         <div className="pr-[6%] w-1/2">
           <h3 className="font-medium leading-[52px] mb-2 pb-[20px] text-[38px] text-dark-blue">Our experiential approach creates benefits for all.</h3>
           <p className="font-medium leading-[25px] max-w-[750px] mb-4 text-[16px]">Diathrive Health delivers a more effective, accessible, and engaging way to manage diabetes. By improving the quality of care and removing inefficiencies, middlemen, and waste—we can deliver more positive results for individuals and employers.</p>
-          <LinkButton href="/request-a-demo" text="Learn More" />
+          <LinkButton href="/request-a-demo" label="Request A Demo" text="Learn More" />
         </div>
         <div className="flex flex-row justify-center w-1/2">
           <iframe allowFullScreen height="315" src="https://player.vimeo.com/video/605850561?h=9de70b831a" width="560" ></iframe>
@@ -86,7 +86,7 @@ export default function AboutPage() {
           <div className="w-[43%]">
             <h3 className="font-medium leading-[48px] text-[38px]" style={{ color: 'white' }}>We are listeners, overhaulers, and doers.</h3>
             <p className="font-medium leading-[25px] mb-[20px] mt-[10px] text-[16px]" style={{ color: 'white' }}>There are over 37 million Americans dealing with diabetes, so there is no time for stagnation and status quo. Our leaders drive change — so your organization can benefit from sweeping change.</p>
-            <LinkButton bgColor="white" href="/request-a-demo" text="Learn More" textColor="#242678" />
+            <LinkButton bgColor="white" href="/request-a-demo" label="Request A Demo" text="Learn More" textColor="#242678" />
           </div>
           <Image
             alt="We are listeners, overhaulers, and doers."

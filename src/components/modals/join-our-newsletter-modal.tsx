@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import JoinOurNewsletterForm from '@/components/layout/newsletter/join-our-newsletter-form';
 
-export default function JoinOurNewsletterModal(): JSX.Element {
+export default function JoinOurNewsletterModal() {
   // Render
   return (
     <main className="w-[760px]">

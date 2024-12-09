@@ -16,7 +16,7 @@ const initialState: { errors: Errors, message: string; } = {
   message: '',
 };
 
-export default function ContactUsForm(): JSX.Element {
+export default function ContactUsForm() {
   // State
   const [errors, setErrors] = React.useState<Errors>({});
 

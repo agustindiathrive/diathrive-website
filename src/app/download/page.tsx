@@ -12,7 +12,7 @@ export default function DownloadPage() {
             Health App Today.
           </h4>
           <div className="flex flex-row gap-6 mt-6">
-            <a href="https://apps.apple.com/us/app/diathrive-health/id1619849670" target="_blank">
+            <a aria-label="Download on the App Store" href="https://apps.apple.com/us/app/diathrive-health/id1619849670" target="_blank">
               <Image
                 alt="Download on the App Store"
                 height={55}
@@ -21,7 +21,7 @@ export default function DownloadPage() {
                 width={181}
               />
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.diathrive.app.android">
+            <a aria-label="Download on Google Play" href="https://play.google.com/store/apps/details?id=com.diathrive.app.android">
               <Image
                 alt="Download on Google Play"
                 height={55}

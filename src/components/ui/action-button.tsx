@@ -5,7 +5,7 @@ type ActionButtonProps = {
   type?: 'button' | 'submit';
 };
 
-export default function ActionButton({ bgColor = 'light-blue', text, textColor = 'white', type = 'submit' }: ActionButtonProps): JSX.Element {
+export default function ActionButton({ bgColor = 'light-blue', text, textColor = 'white', type = 'submit' }: ActionButtonProps) {
   // Render
   return (
     <button

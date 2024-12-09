@@ -1,4 +1,4 @@
-export default function NewsletterModal(): JSX.Element {
+export default function NewsletterModal() {
   // Render
   return <div />;
 }

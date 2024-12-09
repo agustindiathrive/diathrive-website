@@ -1,6 +1,6 @@
 import ActionButton from '@/components/ui/action-button';
 
-export default function SendMessageForm(): JSX.Element {
+export default function SendMessageForm() {
   // Render
   return (
     <section className="max-w-[1320px] mx-auto pb-[80px] pt-[120px]">

@@ -10,7 +10,7 @@ type HeroProps = {
   underlinedTitle: string;
 };
 
-export default function Hero({ backgroundImageURL, showButton = false, text, title, underlinedTitle }: HeroProps): JSX.Element {
+export default function Hero({ backgroundImageURL, showButton = false, text, title, underlinedTitle }: HeroProps) {
   // Render
   return (
     <section className="flex flex-col justify-center h-[493px] relative w-full">
@@ -23,7 +23,7 @@ export default function Hero({ backgroundImageURL, showButton = false, text, tit
         {text && <p className="font-medium leading-[25px] pt-[30px] text-[16px] w-1/2" style={{ color: 'white' }}>{text}</p>}
         {showButton && (
           <div className="mt-[50px]">
-            <LinkButton bgColor="#00a5e3" href="/request-a-demo" text="Request A Demo" />
+            <LinkButton bgColor="#00a5e3" href="/request-a-demo" label="Request A Demo" text="Request A Demo" />
           </div>
         )}
       </div>

@@ -5,7 +5,7 @@ import type { Article } from '@/types/article';
 import { articles } from '@/utils/data/articles';
 import LinkButton from '@/components/ui/link-button';
 
-export default function Articles(): JSX.Element {
+export default function Articles() {
   // Render
   return (
     <section className="py-[40px]">
@@ -26,6 +26,7 @@ export default function Articles(): JSX.Element {
               <LinkButton
                 bgColor="#242678"
                 href={`/article/${a.slug}`}
+                label={a.linkText}
                 text="Read More"
                 textColor="white"
               />

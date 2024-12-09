@@ -6,7 +6,7 @@ import * as React from 'react';
 
 import ContactUsForm from '@/components/layout/contact-us/contact-us-form';
 
-export default function ContactUs(): JSX.Element {
+export default function ContactUs() {
   // State
   const [showContactForm, setShowContactForm] = React.useState<boolean>(false);
 
